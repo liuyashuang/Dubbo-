@@ -58,8 +58,7 @@ Service接口|Taotao-manger-interface
 Service实现类|Taotao-manger-service
 applicationContext-service.xml|Taotao-manger-service
 applicationContext-trans.xml|Taotao-manger.service
-web.xml配置：配置加载spring容器
-
+<br>web.xml配置：配置加载spring容器
 ###### 3.表现层
 Springmvc整合spring框架，由springmvc管理controller，引入dubbo服务
 
@@ -67,4 +66,4 @@ Springmvc整合spring框架，由springmvc管理controller，引入dubbo服务
 ---|:---:|
 springmvc.xml|Taotao-manger-web
 Controller|Taotao-manger-web
-web.xml的配置：前端控制器的配置，配置URL拦截形式
+<br>web.xml的配置：前端控制器的配置，配置URL拦截形式
