@@ -15,7 +15,7 @@ Dubbo 就是类似于webservie的关于系统之间通信的框架，
 并可以统计和管理服务之间的调用情况（包括服务被谁调用，调用的次数，以及服务的使用状况）
 
 #### 3. Dubbo的架构
-![架构图](https://images2018.cnblogs.com/blog/137084/201805/137084-20180507144228272-1688347553.png)</br>
+![架构图](https://github.com/liuyashuang/Dubbo-/blob/master/img/dubbo.png)</br>
 **Provider:服务的提供者，将服务发布出去（Spring)，
 发布的内容有：方法，IP地址，端口等等 交给注册中心**</br>
 <br>**Consumer:服务的调用者。subscribe到注册中心订阅，注册中心通过notify提醒Consumer**</br>
